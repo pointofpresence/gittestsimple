@@ -6,18 +6,15 @@
         "uid": "FIX_ME",
         "websocket": "FIX_ME",
         "datastore": "FIX_ME",
-        "apiUrl": "FIX_ME",
         "openGraph": true,
-        "history": {
-            "url": "FIX_ME",
-            "count": 20
-        },
-        "unauthorizedHistory": {
-            "url": "FIX_ME",
-            "count": 20,
-            "enable": true,
-            "cookie": {
-                "Max-Age": 15552000
+        "backend": {
+            "rootUrl": "FIX_ME",
+            "unauthorizedHistory": {
+                "count": 20,
+                "enable": true,
+                "cookie": {
+                    "Max-Age": 15552000
+                }
             }
         },
         "webNotification": {
